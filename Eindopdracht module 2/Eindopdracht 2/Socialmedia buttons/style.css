@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+
+body {
+  background-color: #c3cfe2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  margin-left: 500px;
+  margin-top: 300px;
+}
+
+.socialmedia-buttons {
+  width: 35px;
+}
+
+.blog {
+  background-color: #e17b77;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #00aced;
+}
+
+.github {
+  background-color: black;
+}
+
+.linkedin {
+  background-color: #007bb6;
+}
+
+.blog {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.blog:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.blog__img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.blog__link {
+  color: white;
+}
+
+.twitter {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.twitter:hover {
+  -webkit-transform: translate(-160px);
+          transform: translate(-160px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.twitter__img {
+  height: 35px;
+  margin-right: 20px;
+}
+
+.twitter__link {
+  color: white;
+}
+
+.linkedin {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.linkedin:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.linkedin__img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.linkedin__link {
+  color: white;
+}
+
+.facebook {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.facebook:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.facebook__img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.facebook__link {
+  color: white;
+}
+
+.github {
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 600px;
+  padding: 5px;
+}
+
+.github:hover {
+  -webkit-transform: translate(-180px);
+          transform: translate(-180px);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  width: 300px;
+}
+
+.github__img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.github__link {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
